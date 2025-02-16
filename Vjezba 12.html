@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="hr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Autor" content="Borna Milatovic">
+		<title> Vježba 12 </title>
+	</head>
+    <body>
+        <form>
+            <label for="firstname">First Name *</label>
+            <br>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name..." required style="width: 200px; margin-bottom: 10px;">
+            <br>
+            <label for="lname">Last Name *</label>
+            <br>
+			<input type="text" id="lname" name="lastname" placeholder="Your last name..." required style="width: 200px; margin-bottom: 10px;">
+            <br>
+            <label for="lname">Your E-mail *</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="Your e-mail..." required style="width: 200px; margin-bottom: 10px;">
+            <br>
+            <label for="country">Zemlja</label>
+            <br>
+            <select id="country" name="country" style="width: 208px; margin-bottom: 10px;">
+                <option value="">Izaberite</option>
+                <option value="BiH">Bosna i Hercegovina</option>
+				<option value="SRB">Srbija</option>
+				<option value="ITA">Italija</option>
+                <option value="HR" selected>Hrvatska</option>
+                <option value="SLO">Slovenija</option>
+                <option value="AUS">Austrija</option>
+            </select></label>
+            <br>
+            <label for="subject">Message</label>
+            <br>
+            <textarea id="subject" name="name" placeholder="Write something..." style="height:100px; width:200px; margin-bottom: 10px;"></textarea>
+            <br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>
